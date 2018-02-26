@@ -1,6 +1,6 @@
 {
   "name": "@webcomponents/webcomponentsjs",
-  "version": "1.1.0",
+  "version": "1.1.0-iefix",
   "description": "Web Components Polyfills",
   "main": "webcomponents-lite.js",
   "directories": {
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@webcomponents/custom-elements": "^1.0.8",
     "@webcomponents/html-imports": "^1.1.1",
-    "@webcomponents/shadycss": "^1.1.1",
+    "@webcomponents/shadycss": "github:chadkillingsworth/shadycss#banno",
     "@webcomponents/shadydom": "^1.0.12",
     "@webcomponents/template": "^1.2.2",
     "@webcomponents/webcomponents-platform": "^1.0.0",
