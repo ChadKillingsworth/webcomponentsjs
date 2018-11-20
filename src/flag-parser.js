@@ -8,13 +8,13 @@
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
-'use strict';
+export {};
 
 // Establish scope.
 window['WebComponents'] = window['WebComponents'] || {'flags':{}};
 
 // loading script
-let file = 'webcomponents-lite.js';
+let file = 'webcomponents-bundle';
 let script = document.querySelector('script[src*="' + file + '"]');
 let flagMatcher = /wc-(.+)/;
 
